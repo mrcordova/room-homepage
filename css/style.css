@@ -60,6 +60,23 @@ main {
   position: relative;
   grid-row: 1;
 }
+
+.about-container {
+  padding-inline: 2rem;
+  padding-block: 3.25rem 2.5rem;
+
+  & h2 {
+    font-size: 0.82rem;
+    letter-spacing: 0.4rem;
+    padding-block-end: 1rem;
+  }
+
+  & p {
+    color: var(--Dark-Gray);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+}
 .arrows {
   bottom: 0;
   right: 0;

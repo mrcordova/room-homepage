@@ -148,6 +148,11 @@ main {
     & li {
       list-style: none;
       color: var(--White);
+
+      &:hover {
+        cursor: pointer;
+        border-bottom: 3px solid var(--White);
+      }
     }
   }
 }

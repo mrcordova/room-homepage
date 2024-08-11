@@ -66,7 +66,7 @@
     </header>
     <main>
       <div class="img-container">
-        <picture>
+        <picture class="mySlides hide">
           <source
             media="(min-width: 30rem)"
             srcset="/images/desktop-image-hero-1.jpg" />
@@ -74,28 +74,28 @@
             src="/images/mobile-image-hero-1.jpg"
             alt="2 white chairs and a table with plant" />
         </picture>
-        <picture>
+        <picture class="mySlides hide">
           <source
             media="(min-width: 30rem)"
             srcset="/images/desktop-image-hero-2.jpg" />
           <img src="/images/mobile-image-hero-2.jpg" alt="3 chairs" />
         </picture>
-        <picture>
+        <picture class="mySlides hide">
           <source
             media="(min-width: 30rem)"
             srcset="/images/desktop-image-hero-3.jpg" />
           <img src="/images/mobile-image-hero-3.jpg" alt="black chair" />
         </picture>
         <div class="arrows">
-          <button>
+          <button data-value="-1">
             <img src="./images/icon-angle-left.svg" alt="previous arrow" />
           </button>
-          <button>
+          <button data-value="1">
             <img src="./images/icon-angle-right.svg" alt="next arrow" />
           </button>
         </div>
       </div>
-      <div class="discover-con">
+      <div class="discover-con myDescSlides hide">
         <h1 class="league-spartan-700">Discover innovative ways to decorate</h1>
         <p>
           We provide unmatched quality, comfort, and style for property owners
@@ -116,7 +116,7 @@
           <!-- <img src="./images/icon-arrow.svg" alt="black arrow" /> -->
         </button>
       </div>
-      <div class="discover-con">
+      <div class="discover-con myDescSlides hide">
         <h1 class="league-spartan-700">
           We are available all across the globe
         </h1>
@@ -138,7 +138,7 @@
           <!-- <img src="./images/icon-arrow.svg" alt="black arrow" /> -->
         </button>
       </div>
-      <div class="discover-con">
+      <div class="discover-con myDescSlides hide">
         <h1 class="league-spartan-700">Manufactured with the best materials</h1>
         <p>
           Our modern furniture store provide a high level of quality. Our

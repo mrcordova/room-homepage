@@ -202,7 +202,7 @@ main {
 
 @media (min-width: 30rem) {
   main {
-    grid-template-columns: 27.5rem 25rem minmax(0, 10rem) auto;
+    grid-template-columns: 27.5rem 25rem 10rem auto;
   }
   #desktop-menu {
     display: flex;
